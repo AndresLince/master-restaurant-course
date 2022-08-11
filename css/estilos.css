@@ -1,0 +1,68 @@
+/*Estilos generales*/
+*,
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font:100% /1.5 Arial, sans-serif;
+}
+
+.contenedor {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*ESTILOS ENCABEZADO*/
+.logo {
+    display: block;
+    width: 19.91304%;
+    float: left;
+}
+.logo img{
+    max-width: 100%;
+}
+
+.barra-encabezado{
+    float: right;
+    border: 1px solid red;
+}
+
+.barra-encabezado .telefono {
+    display: inline-block;
+    color: #a49c8f;
+    text-decoration: none;
+    font-size: 1.25em; /*20-16*/
+    cursor: default;
+}
+.barra-encabezado .telefono .fa-phone {
+    font-size: 1.8em; /*35-20*/
+    vertical-align: middle;
+    padding-right: 0.1; /*2-20*/
+}
+.barra-encabezado form {
+    display: inline-block;
+}
+.barra-encabezado form input{
+    border: 0.0625em solid #dedede;/*1-20*/
+    background: #f2f2f1;
+    border-radius: 0.3125em;/*5-20*/
+    padding: 0.625em;/*10-20*/
+    color: #a49c8f;
+}
+.barra-encabezado form input:hover,
+.barra-encabezado form input:focus {
+    border: 0.0625em solid #ED8D21;/*1-20*/
+    background: #EAEAEA;
+    outline: none;
+}
+.barra-encabezado ul {
+    display: inline-block;
+}
+.barra-encabezado .redes-sociales {
+    display: inline-block;
+}
