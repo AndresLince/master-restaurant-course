@@ -66,3 +66,6 @@ body{
 .barra-encabezado .redes-sociales {
     display: inline-block;
 }
+.barra-encabezado .redes-sociales li {
+    display: inline-block;
+}
