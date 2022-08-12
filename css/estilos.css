@@ -18,6 +18,9 @@ body{
 }
 
 /*ESTILOS ENCABEZADO*/
+header.encabezado {
+    padding: 1.75em 0;
+}
 .logo {
     display: block;
     width: 19.91304%;
@@ -29,7 +32,7 @@ body{
 
 .barra-encabezado{
     float: right;
-    border: 1px solid red;
+    line-height: 4.375em;
 }
 
 .barra-encabezado .telefono {
@@ -46,6 +49,7 @@ body{
 }
 .barra-encabezado form {
     display: inline-block;
+    margin: 0 2.5em;
 }
 .barra-encabezado form input{
     border: 0.0625em solid #dedede;/*1-20*/
@@ -65,7 +69,26 @@ body{
 }
 .barra-encabezado .redes-sociales {
     display: inline-block;
+    padding: 0;
+    margin: 0;
 }
 .barra-encabezado .redes-sociales li {
     display: inline-block;
+}
+.barra-encabezado .redes-sociales li a {
+    text-decoration: none;
+    color: white;
+    background: #f1af44;
+    display: block;
+    width: 2.25em;
+    height: 2.25em;
+    text-align: center;
+    line-height: 2.25em; /*Centra vertical*/
+    border-radius: 50%; /*Redondea el logo*/
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.barra-encabezado .redes-sociales li a:hover {
+    background: #A49C8F;
 }
