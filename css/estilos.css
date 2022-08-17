@@ -131,3 +131,38 @@ nav.menu-principal li:last-child a{
 nav.menu-principal li a:hover{
     background: rgb(249,132,93);
 }
+
+/*--------------------------------------------------------------------
+                          ESTILOS PARA LA PRESENTACION
+----------------------------------------------------------------------*/
+section.presentacion{
+    background: url("../images/fondo-presentacion.jpg");
+}
+section.presentacion .texto-presentacion{
+    float: left;
+    width: 53.21%;
+    text-align: center;
+    border: 1px solid red;
+}
+section.presentacion .texto-presentacion h1{
+    font-family: Helvetica;
+    color: white;
+    text-shadow: 1px 1px 0 rgb(56, 55, 55);
+    font-size: 3.75em;/*60 - 16*/
+    letter-spacing: 2px;
+    margin: 1.46em 0 0 0;/*88 - 60*/
+    line-height: 1.1;
+}
+section.presentacion .texto-presentacion h2{
+    font-family: Helvetica;
+    color: white;
+    text-shadow: 1px 1px 0 rgb(56, 55, 55);
+    font-size: 1.5em;/*24 - 16*/
+    margin: 0;
+    line-height: 1.1;
+}
+section.presentacion .images-presentacion{
+    float: right;
+    width: 43.91%;
+    border: 1px solid red;
+}
