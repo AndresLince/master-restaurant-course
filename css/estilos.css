@@ -188,3 +188,70 @@ section.presentacion .images-presentacion img{
     position: relative;
     top: 2.5em;/*50-20*/
 }
+
+/*--------------------------------------------------------------------
+                          ESTILOS PARA BIENVENIDOS
+----------------------------------------------------------------------*/
+.bienvenidos h2 {
+    font-family: Helvetica;
+    color: #ee5624;
+    font-size: 3em;/*48 - 16*/
+    margin: 0.58em 0 0 0;/*28 - 48*/
+    line-height: 1.1;
+    text-align: center;
+}
+.bienvenidos p {
+    font-family: Helvetica;
+    color: #5a605b;
+    font-size: 1.75em;/*28 - 16*/
+    margin: 0.28em 0 0 0;/*8 - 28*/
+    line-height: 1.1;
+    text-align: center;
+}
+
+.bloque-bienvenidos{
+    display: table;
+    margin: 0.3125em 0 0 0;/*5-16*/
+}
+.bloque-bienvenidos figure{
+    display: table-cell;
+    text-align: center;
+    padding: 0.9375em 2.1875em; /*15px - 35px*/
+}
+
+.clock-image {
+    color: white;
+    background: #ee5624;
+    display: block;
+    width: 4.50em;
+    height: 4.50em;
+    text-align: center;
+    line-height: 4.50em !important; /*Centra vertical*/
+    border-radius: 50%; /*Redondea el logo*/
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.clock-image:hover {
+    background: #5a605b;
+}
+.bloque-bienvenidos figure a{
+    text-decoration: none;
+}
+
+.bienvenidos h3 {
+    margin: 0.6em 0 0.4em 0; /*15px - 10px*/
+    font-family: Helvetica;
+    color: #ee5624;
+    font-size: 1.5625em;/*15 - 16*/
+    margin: 0.28em 0 0 0;/*8 - 28*/
+    line-height: 1.1;
+    text-align: center;
+}
+.bienvenidos h3:hover {
+    color:#5a605b;
+}
+.bloque-bienvenidos figure figcaption{
+    margin: 0.6em 0 0 0; /*15px - 10px*/
+    color:#5a605b;
+}
