@@ -255,3 +255,56 @@ section.presentacion .images-presentacion img{
     margin: 0.6em 0 0 0; /*15px - 10px*/
     color:#5a605b;
 }
+
+/*--------------------------------------------------------------------
+                ESTILOS CONTENIDO PRINCIPAL DEL SITIO
+----------------------------------------------------------------------*/
+main {
+    background: #ee5624;
+    color: white;
+    padding-bottom: 3.125em; /*50-16*/
+}
+main article.quienes-somos {
+    display: table-cell;
+    width: 50%;
+    padding: 0.625em;/*10-16*/
+}
+main article.quienes-somos img{
+    float: left;
+    width: 40%;
+}
+main article.quienes-somos p{
+    float: left;
+    width: 58%;
+    margin: 0 0 0 2%;
+}
+main article.quienes-somos a{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #ee5624;
+    padding: 0.3571em 1.071em;/*17,30 -16*/
+    border: 5px solid rgba(255, 255, 255, 0.42);
+    border-radius: 0.28em;/*8 - 28*/
+    background-clip: padding-box;
+    font-size: 1.75em;/*28 - 16*/
+    display: inline-block;
+    margin: 0.7142em 0 0 0;/*20 - 28*/
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+main article.quienes-somos a:hover{
+    background-color: #CA3200;
+    border: 5px solid rgba(255, 255, 255, 0.87);
+}
+main article h2{
+    font-family: Helvetica;
+    font-size: 2.1875em;/*25 - 16*/
+}
+main article.aqui-estamos {
+    display: table-cell;
+    width: 50%;
+    padding: 0.625em;/*10-16*/
+}
