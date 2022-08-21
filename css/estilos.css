@@ -115,9 +115,9 @@ nav.menu-principal li a{
     color: white;
     text-transform: uppercase;
     font-size: 1.125em;/*18-16*/
-    padding: 1.25em;/*18-16*/
-    border-left: 0.0625 solid #ff7041;/*1-16*/
-    border-right: 0.0625 solid #cf3705;/*1-16*/
+    padding: 1.25em 0;/*18-16*/
+    border-left: 0.0625em solid #ff7041;/*1-16*/
+    border-right: 0.0625em solid #cf3705;/*1-16*/
     -o-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
@@ -137,7 +137,7 @@ nav.menu-principal li a:hover{
                           ESTILOS PARA LA PRESENTACION
 ----------------------------------------------------------------------*/
 section.presentacion{
-    background: url("../images/fondo-presentacion.jpg");
+    background: url("../images/fondo-presentacion.jpg") no-repeat;
 }
 section.presentacion .texto-presentacion{
     float: left;
@@ -187,6 +187,7 @@ section.presentacion .images-presentacion{
 section.presentacion .images-presentacion img{
     position: relative;
     top: 2.5em;/*50-20*/
+    max-width: 100%;
 }
 
 /*--------------------------------------------------------------------
@@ -319,3 +320,28 @@ footer.piedepagina {
     text-align: center;
     padding: 10px 0;
 }
+
+/* -------------------------------------------------------------------
+                MediasQueries a los 1500px
+-------------------------------------------------------------------*/
+
+@media screen and (max-width: 1500px) {
+    section.presentacion .texto-presentacion h1{
+        font-size: 3em;/*60 - 16*/
+    }
+}/*Fin de medias queries a los 1500px*/
+/* -------------------------------------------------------------------
+                MediasQueries a los 810px
+-------------------------------------------------------------------*/
+
+@media screen and (max-width: 810px) {
+    section.presentacion .texto-presentacion h1{
+        font-size: 2.8em;/*60 - 16*/
+        margin: 1.1em 0 0 0;
+    }
+}/*Fin de medias queries a los 810px*/
+@media screen and (max-width: 966px) {
+    body{
+        font-size: 87.5%;
+    }
+}/*Fin de medias queries a los 810px*/
