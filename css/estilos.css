@@ -308,3 +308,14 @@ main article.aqui-estamos {
     width: 50%;
     padding: 0.625em;/*10-16*/
 }
+
+/*--------------------------------------------------------------------
+                ESTILOS PARA EL PIE DE PAGINA
+----------------------------------------------------------------------*/
+
+footer.piedepagina {
+    background: #444444;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
