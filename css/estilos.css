@@ -138,6 +138,7 @@ nav.menu-principal li a:hover{
 ----------------------------------------------------------------------*/
 section.presentacion{
     background: url("../images/fondo-presentacion.jpg") no-repeat;
+    background-size: cover;
 }
 section.presentacion .texto-presentacion{
     float: left;
@@ -328,6 +329,10 @@ footer.piedepagina {
 @media screen and (max-width: 1500px) {
     section.presentacion .texto-presentacion h1{
         font-size: 3em;/*60 - 16*/
+        margin: 0.6em 0 0 0;
+    }
+    section.presentacion{
+        padding: 0.5em;
     }
 }/*Fin de medias queries a los 1500px*/
 /* -------------------------------------------------------------------
@@ -337,11 +342,44 @@ footer.piedepagina {
 @media screen and (max-width: 810px) {
     section.presentacion .texto-presentacion h1{
         font-size: 2.8em;/*60 - 16*/
-        margin: 1.1em 0 0 0;
+        margin: 0.6em 0 0 0;
     }
 }/*Fin de medias queries a los 810px*/
+/* -------------------------------------------------------------------
+                MediasQueries a los 966px
+-------------------------------------------------------------------*/
 @media screen and (max-width: 966px) {
     body{
         font-size: 87.5%;
     }
-}/*Fin de medias queries a los 810px*/
+    .contenedor{
+        width: 96%;
+    }
+}/*Fin de medias queries a los 966px*/
+
+/* -------------------------------------------------------------------
+                MediasQueries a los 770px
+-------------------------------------------------------------------*/
+@media screen and (max-width: 770px) {
+    section.presentacion .texto-presentacion h1{
+        font-size: 2.4em;
+        margin: 0.6em 0 0 0;
+    }
+    section.presentacion .texto-presentacion .boton-principal{
+        padding: 0.5em;
+        font-size: 1.6em;
+    }
+}/*Fin de medias queries a los 770px*/
+
+/* -------------------------------------------------------------------
+                MediasQueries a los 750px
+-------------------------------------------------------------------*/
+
+@media screen and (max-width: 750px) {
+    main article.quienes-somos{
+        display: block;
+        width: 100%;
+        padding: 0.625em;
+        overflow: hidden;
+    }
+}/*Fin de medias queries a los 750px*/
