@@ -322,6 +322,11 @@ footer.piedepagina {
     padding: 10px 0;
 }
 
+/*-------------------Ocultamos boton movil---------------------------*/
+#menumovil {
+    display: none;
+}
+
 /* -------------------------------------------------------------------
                 MediasQueries a los 1500px
 -------------------------------------------------------------------*/
@@ -377,7 +382,7 @@ footer.piedepagina {
 
 @media screen and (max-width: 750px) {
     .contenedor{
-        width: 98%;
+        width: 100%;
     }
     main article.quienes-somos{
         display: block;
@@ -396,14 +401,91 @@ footer.piedepagina {
         padding: 1em 0;
     }
     .logo {
-        width: 50%;
+        width: 100%;
         display: block;
         float: center;
         text-align: center;
     }
     .barra-encabezado {
         margin-top: 1em;
-        float: center;
+        float: none;
         text-align: center;
+    }
+
+    /*Estilos menu movil*/
+
+    nav.menu-principal ul {
+        display: none;
+        background: #222222;
+    }
+    nav.menu-principal ul li {
+        float: none;
+        width: auto;
+        border-top: 1px solid #696565;
+        border-bottom: 1px solid #1e1e1e;
+        display: block;
+    }
+    nav.menu-principal ul li a {
+        background: #3d3c3e;
+        color: white;
+        border-radius: 0; /* 6px / 16px*/
+        margin: 0px; /* 2px / 16px*/
+        transition: all 0.5s ease;
+    }
+    nav.menu-principal ul li a:hover {
+        background: #1d1c1d;
+        border-radius: 0;
+    }
+
+    /* Estilos para el boton de tres lineas*/
+    #menumovil {
+        display: block;
+        background: #EE5624;
+        position: relative;
+        text-decoration: none;
+        text-align: center;
+        height: 3em; /* 48px / 16px  */
+        line-height: 3em; /* 48px / 16px  */
+        position: relative;
+        color: white
+    }
+    #menumovil:hover{
+        background: black;
+    }
+    #menumovil:before{
+        content: "";
+        position: absolute;
+        right: 0.75em; /* 12px / 16px*/
+        top: 0.75em; /* 12px / 16px*/
+        width: 1.875em; /* 30px / 16px*/
+        height: 1.4285em; /* 4px / 16px*/
+        border-top: 4px solid white;
+        border-bottom: 12px double white;
+        transition: all 0.5s;
+    }
+    #menumovil:hover:before{
+        content: "";
+        border-top: 4px solid #ff5864;
+        border-bottom: 12px double #ff5864;
+    }
+    .bloque-bienvenidos figure{
+        display: block;
+        text-align: center;
+        padding: 0.2em 2.1875em; /*15px - 35px*/
+        overflow: hidden;
+        border-bottom: 5px solid rgb(238, 86, 36, 1);
+    }
+    .clock-image {
+        float: left;
+        margin-right: 2%;
+    }
+    .bienvenidos h3{
+        text-align: left;
+    }
+    .bienvenidos h3{
+        text-align: left;
+    }
+    section.presentacion .texto-presentacion .boton-principal{
+        font-size: 1.4em;
     }
 }/*Fin de medias queries a los 750px*/
