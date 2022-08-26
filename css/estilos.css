@@ -401,10 +401,12 @@ footer.piedepagina {
         padding: 1em 0;
     }
     .logo {
-        width: 100%;
+        width: 96%;
         display: block;
         float: center;
         text-align: center;
+        margin: 0 auto;
+        padding: 1em;
     }
     .barra-encabezado {
         margin-top: 1em;
@@ -489,3 +491,40 @@ footer.piedepagina {
         font-size: 1.4em;
     }
 }/*Fin de medias queries a los 750px*/
+
+/* -------------------------------------------------------------------
+                MediasQueries a los 770px
+-------------------------------------------------------------------*/
+@media screen and (max-width: 550px) {
+    .barra-encabezado .telefono {
+        display: block;
+        cursor: pointer;
+        background: rgb(238, 86, 36);
+        color: white;
+        padding: 0.5em;
+        border-radius: 0.3125em;
+        width: 96%;
+        font-size: 1.5em;
+        margin: 0 auto;
+        text-shadow: 1px 1px 0 rgb(150, 44, 9);
+    }
+    .barra-encabezado form {
+        display: block;
+        margin: 1em 0;
+    }
+    .barra-encabezado .redes-sociales {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .barra-encabezado form input {
+        width: 96%;
+    }
+    .barra-encabezado .telefono:hover {
+        background: rgb(240, 173, 21);
+    }
+    section.presentacion .texto-presentacion h1 {
+        font-size: 2.3em;
+        margin: 0.1em 0 0 0;
+      }
+}/*Fin de medias queries a los 550px*/
