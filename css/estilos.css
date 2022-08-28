@@ -310,6 +310,9 @@ main article.aqui-estamos {
     width: 50%;
     padding: 0.625em;/*10-16*/
 }
+main article.aqui-estamos iframe{
+    height: 20.5em;
+}
 
 /*--------------------------------------------------------------------
                 ESTILOS PARA EL PIE DE PAGINA
@@ -484,7 +487,7 @@ footer.piedepagina {
     .bienvenidos h3{
         text-align: left;
     }
-    .bienvenidos h3{
+    .bienvenidos figcaption{
         text-align: left;
     }
     section.presentacion .texto-presentacion .boton-principal{
@@ -508,6 +511,9 @@ footer.piedepagina {
         margin: 0 auto;
         text-shadow: 1px 1px 0 rgb(150, 44, 9);
     }
+    .barra-encabezado .telefono:hover {
+        background: rgb(240, 173, 9);
+    }
     .barra-encabezado form {
         display: block;
         margin: 1em 0;
@@ -519,6 +525,7 @@ footer.piedepagina {
     }
     .barra-encabezado form input {
         width: 96%;
+        padding:1em;
     }
     .barra-encabezado .telefono:hover {
         background: rgb(240, 173, 21);
@@ -526,5 +533,55 @@ footer.piedepagina {
     section.presentacion .texto-presentacion h1 {
         font-size: 2.3em;
         margin: 0.1em 0 0 0;
-      }
+    }
+      section.presentacion .texto-presentacion .boton-principal{
+        font-size: 1.1em;
+    }
+    .bloque-bienvenidos figure{
+        display: block;
+        text-align: center;
+        padding: 0.2em 2.1875em; /*15px - 35px*/
+        overflow: hidden;
+        border-bottom: 5px solid rgb(238, 86, 36, 1);
+    }
+    .clock-image {
+        float: none;
+        margin-right: 0%;
+    }
+    .bienvenidos h3{
+        text-align: center;
+    }
+    .bienvenidos figcaption{
+        text-align: center;
+    }
 }/*Fin de medias queries a los 550px*/
+
+
+
+/* -------------------------------------------------------------------
+                MediasQueries a los 1800px
+-------------------------------------------------------------------*/
+@media screen and (min-width: 1800px) {
+    body{
+        font-size: 125%;
+    }
+    section.presentacion .texto-presentacion .boton-principal{
+        margin: 0.7142em 0 1em;/*20 - 28*/
+    }
+    section.presentacion .images-presentacion img{
+        top: 3.5em;/*50-20*/
+    }
+}/*Fin de medias queries a los 1800px*/
+
+/* -------------------------------------------------------------------
+                MediasQueries a los 2100px
+-------------------------------------------------------------------*/
+@media screen and (min-width: 135.25em) {
+    body{
+        font-size: 162.5%;
+    }
+    .contenedor {
+        max-width: 76.92em;
+    }
+
+}/*Fin de medias queries a los 2100px*/
