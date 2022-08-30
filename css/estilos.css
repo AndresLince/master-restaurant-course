@@ -334,7 +334,7 @@ footer.piedepagina {
                 MediasQueries a los 1500px
 -------------------------------------------------------------------*/
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 93.75em) {
     section.presentacion .texto-presentacion h1{
         font-size: 3em;/*60 - 16*/
         margin: 0.6em 0 0 0;
@@ -347,7 +347,7 @@ footer.piedepagina {
                 MediasQueries a los 810px
 -------------------------------------------------------------------*/
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 50.625em) {
     section.presentacion .texto-presentacion h1{
         font-size: 2.8em;/*60 - 16*/
         margin: 0.6em 0 0 0;
@@ -356,7 +356,7 @@ footer.piedepagina {
 /* -------------------------------------------------------------------
                 MediasQueries a los 966px
 -------------------------------------------------------------------*/
-@media screen and (max-width: 966px) {
+@media screen and (max-width: 60.375em) {
     body{
         font-size: 87.5%;
     }
@@ -368,7 +368,7 @@ footer.piedepagina {
 /* -------------------------------------------------------------------
                 MediasQueries a los 770px
 -------------------------------------------------------------------*/
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 48.125em) {
     section.presentacion .texto-presentacion h1{
         font-size: 2.4em;
         margin: 0.6em 0 0 0;
@@ -383,7 +383,7 @@ footer.piedepagina {
                 MediasQueries a los 750px
 -------------------------------------------------------------------*/
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 46.875em) {
     .contenedor{
         width: 100%;
     }
@@ -496,9 +496,9 @@ footer.piedepagina {
 }/*Fin de medias queries a los 750px*/
 
 /* -------------------------------------------------------------------
-                MediasQueries a los 770px
+                MediasQueries a los 550px
 -------------------------------------------------------------------*/
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 34.375em) {
     .barra-encabezado .telefono {
         display: block;
         cursor: pointer;
@@ -556,12 +556,31 @@ footer.piedepagina {
     }
 }/*Fin de medias queries a los 550px*/
 
-
+/* -------------------------------------------------------------------
+                MediasQueries a los 420px
+-------------------------------------------------------------------*/
+@media screen and (max-width: 26.25em) {
+    main article.quienes-somos img {
+        float: none;
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+    main article.quienes-somos p {
+        float: none;
+        width: 96%;
+        margin: 0 auto;
+    }
+    section.presentacion .texto-presentacion .boton-principal{
+        font-size: 0.9em;
+        margin-bottom: 0.6em;
+    }
+}
 
 /* -------------------------------------------------------------------
                 MediasQueries a los 1800px
 -------------------------------------------------------------------*/
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 112.5em) {
     body{
         font-size: 125%;
     }
