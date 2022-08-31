@@ -137,7 +137,7 @@ nav.menu-principal li a:hover{
                           ESTILOS PARA LA PRESENTACION
 ----------------------------------------------------------------------*/
 section.presentacion{
-    background: url("../images/fondo-presentacion.jpg") no-repeat;
+    background: url("../images/fondo-presentacion.jpg") no-repeat center top;
     background-size: cover;
 }
 section.presentacion .texto-presentacion{
@@ -369,6 +369,9 @@ footer.piedepagina {
                 MediasQueries a los 770px
 -------------------------------------------------------------------*/
 @media screen and (max-width: 48.125em) {
+    section.presentacion{
+        background: url("../images/fondo-presentacion-mediano.jpg") no-repeat center top;
+    }
     section.presentacion .texto-presentacion h1{
         font-size: 2.4em;
         margin: 0.6em 0 0 0;
@@ -499,6 +502,9 @@ footer.piedepagina {
                 MediasQueries a los 550px
 -------------------------------------------------------------------*/
 @media screen and (max-width: 34.375em) {
+    section.presentacion{
+        background: url("../images/fondo-presentacion-pequeno.jpg") no-repeat center top;
+    }
     .barra-encabezado .telefono {
         display: block;
         cursor: pointer;
